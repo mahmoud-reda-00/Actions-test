@@ -12,5 +12,11 @@ jobs:
     steps:
       - name: print welcome message 
         run: echo "welcome to first woekflow"
+
+      - name: checkout repo
+        uses: actions/checkout@v6.1.0
+        
+      - name: list repo files 
+        run: la -la
   
   
