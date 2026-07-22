@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 #src/test.sh
 
